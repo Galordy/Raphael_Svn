@@ -1,0 +1,138 @@
+body
+{
+background-image: url('https://images2.alphacoders.com/546/thumb-1920-546678.jpg');
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent
+     background-size: cover;
+     background-position: center;
+}
+.booking-form-box
+{
+     max-width: 350px;
+     border: 1px solid #ced4da;
+     margin: 10% auto 0;
+}
+.radio-btn 
+ {
+     margin: 0 20px;
+}
+.radio-btn .btn
+{
+     margin: 20px 10px 20px 0;
+     box-shadow: none;
+}
+.radio-btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px
+    background-color: #fff;
+    position: relative
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #fff;
+    transition: 0.5s;
+}
+.radio-btn span
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.booking-form
+{
+   padding: 0 20px 20px;
+}
+.booking-form label
+{
+    margin-bottom: 5px
+    margin-top: 10px
+    font-size: 12px;
+    color: #fff;
+}
+input::placeholder 
+{
+color: #000 !important;
+}
+.input-grp
+{
+     width: 50px
+     display: inline-block;
+}
+.form-control
+{
+     font-size: 12px
+     border-radius: 0;
+     color: #000;
+     background: transparent:important;
+     box-shadow: none!important
+}
+.select-data::-webkit-inner-spin-button,
+.selct-data::-webkit-outer-spin-button
+{
+      -webkit-appearance: none;
+       margin: 0;
+}
+.select-date::-webkit-calender-picker-indicador
+{
+       background: transparent!important;
+}
+.custom-select
+{
+       color: #000
+       font-size: 12px;
+       border: 1px solid #ced4da!important;
+       box-shadow: none!important;
+       border-radius: 0!important;
+       background: transparent!important;
+}
+.custom-select option
+{
+       color: #333;
+}
+.flight
+{
+       width:50%%;
+       padding: 9px 0;
+       font-size: 12px;
+      border: 1px solid #ced4da!important;
+      background: transparent!important;
+      box-shadow: none!important
+      border-radius: 0!important;
+}
+.flight:hover
+{
+      background: #fff!important;
+      color: #fff!important;
+      transition: 0.5s;
+}
+.btn
+{
+font-size: 14px;
+text-transform: uppercase;
+font-weight: ;
+border:  none;
+padding: 10px;
+cursor: pointer;
+}
+.btn-blue:hover
+{
+background: #333f8f;
+color: transparent;
+box-shadow:0 5px 0 #333f8b;
+    text-align: left;
+}
+.btn-blue:active
+{
+position:relative;
+top: 5px;
+box-shadow:none;
+}

@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+background: url('https://wallpapercave.com/wp/wp3594888.jpg');
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+.loginbox{
+width: 300px;
+height: 420px;
+background: transparent;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário de reserva de voo</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="booking-form-box">
+<div class="radio-btn">
+ <input type="radio" class="btn" name="check"><span>Viagem de Ida e Volta</span>
+ <input type="radio" class="btn" name="check"><span>Viagem só de Ida</span>
+ <a href="login.html">
+ <button type="button" class="btn btn-blue">login</button>
+ <a href="cadastrodousuario.html">
+ <button type="button" class="btn btn-blue">cadastro</button>
+</div>
+
+<div class="booking-form">
+ <label>Saída de</label>
+     <input type="text" class="form-control" placeholder="Cidade ou Aeroporto">
+ <label>Chegada em</label>
+     <input type="text" class="form-control" placeholder="Cidade ou Aeroporto">
+
+<div class="input-grp">
+        <label>Ida</label>
+            <input type="date" class="form-control select-date">
+</div>
+
+<div class="input-grp">
+        <label>Volta</label>
+            <input type="date" class="form-control select-date">
+</div>
+
+<div class="input-grp">
+        <label>Adultos</label>
+            <input type="number" class="form-control" value="0">
+</div>
+
+<div class="input-grp">
+        <label>Crianças</label>
+            <input type="number" class="form-control" value="0">
+</div>
+
+<div class="input-grp">
+        <label>Classe de Voo</label>
+          <select class="custom-select">
+            <option value="1">Classe Econômica</option>
+            <option value="2">Classe Exuctive</option>
+          </select>   
+    </div>
+
+    <div class="input-grp">
+     <button type="button" class="btn btn-primary flight">Mostrar Voos</button>
+     
+</body>
+</body>
+</html>
